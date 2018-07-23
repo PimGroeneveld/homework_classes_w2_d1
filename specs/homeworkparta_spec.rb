@@ -4,7 +4,7 @@ require_relative( '../homeworkparta' )
 class TestStudent < MiniTest::Test
 
   def setup
-    @student1 = Student.new("Pim", "G7")
+    @team = Student.new("Pim", "G7")
 
     @student2 = Student.new("John", "G10")
 
